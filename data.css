@@ -1,0 +1,33 @@
+#headline{
+  font-family: helvetica;
+  text-align: center;
+  font-size: 50px;
+}
+
+#byline{
+  font-family: helvetica;
+  text-align: center;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  font-family: helvetica;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: helvetica;
+  background-color: white;
+  justify-content: center;
+}
+.flex-container > div {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  justify-content: center;
+  margin: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-family: helvetica;
+  font-size: 16px;
+}
